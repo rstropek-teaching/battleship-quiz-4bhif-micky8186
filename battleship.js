@@ -27,6 +27,7 @@ $(() => {
       }
     }
     // generate ships
+    // Why not using a `for` loop here
     var i = 5;
     while(i > 0){  // set every ship
       var length = (i === 1)?3:i;  // set length at point 1 to 3
